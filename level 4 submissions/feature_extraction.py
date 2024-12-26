@@ -27,10 +27,8 @@ for filename in os.listdir(extract_dir):
         
         gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         
-        # Edge detection using Canny
         edges = cv2.Canny(gray_img, 100, 200)
         
-        # Harris Corner Detection
         corners = cv2.cornerHarris(gray_img, 2, 3, 0.04)
         corners = cv2.dilate(corners, None)
         img[corners > 0.01 * corners.max()] = [0, 0, 255]
