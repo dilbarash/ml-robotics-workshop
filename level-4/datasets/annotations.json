@@ -1,0 +1,29 @@
+[
+  {
+    "image": "image1.jpg",
+    "objects": [
+      {
+        "label": "object1",
+        "bbox": [10, 10, 50, 50]
+      }
+    ]
+  },
+  {
+    "image": "image2.jpg",
+    "objects": [
+      {
+        "label": "object2",
+        "bbox": [20, 20, 40, 40]
+      }
+    ]
+  },
+  {
+    "image": "image3.jpg",
+    "objects": [
+      {
+        "label": "object3",
+        "bbox": [30, 30, 60, 60]
+      }
+    ]
+  }
+]
