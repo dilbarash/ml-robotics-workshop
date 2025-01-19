@@ -1,0 +1,34 @@
+{
+    "grid_size": [
+        5,
+        5
+    ],
+    "start_position": [
+        0,
+        0
+    ],
+    "end_position": [
+        4,
+        4
+    ],
+    "obstacles": [
+        [
+            1,
+            1
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            2
+        ]
+    ],
+    "reward_structure": {
+        "step": -1,
+        "goal": 10,
+        "obstacle": -10,
+        "out_of_bounds": -5
+    }
+}
